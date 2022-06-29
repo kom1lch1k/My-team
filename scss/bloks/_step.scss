@@ -1,0 +1,65 @@
+.step {
+    background-color: #004047;
+
+    &__container {
+        max-width: 1110px;
+    }
+
+    &__wrapper {}
+
+    &__inner-wrapper {
+        text-align: center;
+    }
+
+    &__heading {
+        font-family: 'Livvic';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 48px;
+        text-align: center;
+        color: #FFFFFF;
+        width: 932px;
+        margin: 0 auto;
+        margin-bottom: 92px;
+    }
+
+    &__item {
+        display: flex;
+        align-items: center;
+        gap: 30px;
+    }
+
+    &__list {}
+
+    &__text {
+        font-family: 'Livvic';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 15px;
+        line-height: 25px;
+        text-align: center;
+        color: #FFFFFF;
+        width: 350px;
+        margin-bottom: 24px;
+    }
+
+    &__title {
+        font-family: 'Livvic';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 28px;
+        color: #79C8C7;
+        margin-bottom: 2px;
+       
+    }
+
+    &__text-title {
+        font-family: 'Livvic';
+        font-size: 13px;
+        line-height: 18px;
+        color: #FFFFFF;
+        margin-bottom: 32px;
+    }
+}

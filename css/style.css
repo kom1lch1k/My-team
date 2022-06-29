@@ -434,7 +434,7 @@ p {
 
 .header {
   background-color: #014E56;
-  padding: 77px;
+  padding-top: 77px;
 }
 
 .header__container {
@@ -510,7 +510,7 @@ p {
 
 .hero {
   background-color: #014E56;
-  padding: 133px;
+  padding-top: 133px;
 }
 
 .hero__container {
@@ -535,6 +535,7 @@ p {
   line-height: 100px;
   color: #FFFFFF;
   width: 620px;
+  margin-bottom: 100px;
 }
 
 .hero__heading::before {
@@ -558,5 +559,150 @@ p {
   line-height: 28px;
   color: #FFFFFF;
   width: 445px;
+}
+
+.marketing {
+  background-color: #012F34;
+}
+
+.marketing__container {
+  max-width: 1110px;
+}
+
+.marketing__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.marketing__heading {
+  position: relative;
+  font-family: 'Livvic';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 48px;
+  color: #FFFFFF;
+  width: 445px;
+}
+
+.marketing__heading::before {
+  content: "";
+  position: absolute;
+  width: 50px;
+  height: 4px;
+  background: #79C8C7;
+  right: 88%;
+  top: -54px;
+  background-color: #F67E7E;
+}
+
+.marketing__title {
+  font-family: 'Livvic';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+  color: #F67E7E;
+  width: 445px;
+  margin-bottom: 16px;
+}
+
+.marketing__background {
+  position: relative;
+}
+
+.marketing__background::before {
+  content: "";
+  display: inline-block;
+  width: 56px;
+  height: 56px;
+  background-color: #2C6269;
+  position: absolute;
+  top: 20px;
+  left: -15%;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.marketing__text {
+  font-family: 'Livvic';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 25px;
+  color: rgba(255, 255, 255, 0.8);
+  mix-blend-mode: normal;
+  width: 445px;
+  margin-bottom: 32px;
+}
+
+.step {
+  background-color: #004047;
+}
+
+.step__container {
+  max-width: 1110px;
+}
+
+.step__inner-wrapper {
+  text-align: center;
+}
+
+.step__heading {
+  font-family: 'Livvic';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 48px;
+  text-align: center;
+  color: #FFFFFF;
+  width: 932px;
+  margin: 0 auto;
+  margin-bottom: 92px;
+}
+
+.step__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 30px;
+}
+
+.step__text {
+  font-family: 'Livvic';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 25px;
+  text-align: center;
+  color: #FFFFFF;
+  width: 350px;
+  margin-bottom: 24px;
+}
+
+.step__title {
+  font-family: 'Livvic';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+  color: #79C8C7;
+  margin-bottom: 2px;
+}
+
+.step__text-title {
+  font-family: 'Livvic';
+  font-size: 13px;
+  line-height: 18px;
+  color: #FFFFFF;
+  margin-bottom: 32px;
 }
 /*# sourceMappingURL=style.css.map */

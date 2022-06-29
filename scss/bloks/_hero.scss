@@ -1,6 +1,6 @@
 .hero {
     background-color: #014E56;
-    padding: 133px;
+    padding-top: 133px;
 
     &__container {
         max-width: 1110px;
@@ -26,6 +26,7 @@
         line-height: 100px;
         color: #FFFFFF;
         width: 620px;
+        margin-bottom: 100px;
 
 
         &::before {
