@@ -3,6 +3,9 @@
 
     &__container {
         max-width: 1110px;
+        padding-top: 140px;
+
+
     }
 
     &__wrapper {}
@@ -12,6 +15,7 @@
     }
 
     &__heading {
+        position: relative;
         font-family: 'Livvic';
         font-style: normal;
         font-weight: 700;
@@ -22,6 +26,33 @@
         width: 932px;
         margin: 0 auto;
         margin-bottom: 92px;
+
+        &::before {
+            content: "";
+            display: inline-block;
+            position: absolute;
+            width: 100px;
+            height: 100px;
+            background-image: url(./../images/kvadrat.svg);
+            right: calc(50% - -62%);
+            top: calc(-146%);
+            background-repeat: no-repeat;
+        }
+
+        &::after {
+            content: "";
+            position: absolute;
+            width: 100px;
+            height: 44px;
+            background-image: url(./../images/liniya.svg);
+            right: 107%;
+            top: -91%;
+            
+        }
+    }
+
+    &__span {
+        color: #79C8C7;
     }
 
     &__item {
@@ -33,6 +64,7 @@
     &__list {}
 
     &__text {
+        position: relative;
         font-family: 'Livvic';
         font-style: normal;
         font-weight: 600;
@@ -42,6 +74,19 @@
         color: #FFFFFF;
         width: 350px;
         margin-bottom: 24px;
+
+        &::before {
+            position: absolute;
+            content: "";
+            display: inline-block;
+            width: 100px;
+            height: 100px;
+            background-image: url(./../images/two.svg);
+            right: calc(50% - 18%);
+            top: calc(-56%);
+            background-repeat: no-repeat;
+
+        }
     }
 
     &__title {
@@ -52,7 +97,7 @@
         line-height: 28px;
         color: #79C8C7;
         margin-bottom: 2px;
-       
+
     }
 
     &__text-title {
@@ -63,7 +108,36 @@
         margin-bottom: 32px;
     }
 
-    &__images{
+    &__images {
+        position: relative;
         margin-bottom: 151px;
+    }
+
+    &__position {
+        position: relative;
+        
+
+        &::before {
+            position: absolute;
+            content: "";
+            display: inline-block;
+            width: 200px;
+            height: 100px;
+            background-image: url(./../images/step_position.svg);
+            right: calc(50% - 79%);
+            top: calc(912%);
+            background-repeat: no-repeat;
+
+        }
+        &::after {
+            content: "";
+            position: absolute;
+            width: 100px;
+            height: 44px;
+            background-image: url(./../images/liniya.svg);
+            right: -28%;
+            top: 1215%;
+            
+        }
     }
 }

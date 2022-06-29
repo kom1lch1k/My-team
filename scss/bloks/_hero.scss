@@ -12,10 +12,23 @@
 
     &__item {
         display: flex;
-        align-items: center;
+        align-items: baseline;
     }
 
-    &__list {}
+    &__list {
+
+
+        &::before {
+            content: "";
+            display: inline-block;
+            position: absolute;
+            width: 200px;
+            height: 200px;
+            background-image: url(./../images/disk-left.svg);
+            right: calc(50% - -474px);
+            background-repeat: no-repeat;
+        }
+    }
 
     &__heading {
         position: relative;
@@ -28,17 +41,18 @@
         width: 620px;
         margin-bottom: 100px;
 
-
-        &::before {
+        &::after {
             content: "";
             position: absolute;
             width: 50px;
             height: 4px;
             background: #79C8C7;
             left: 100%;
-        
-            
+            top: 0;
+
+
         }
+
     }
 
     &__span {
@@ -46,6 +60,7 @@
     }
 
     &__text {
+        position: relative;
         font-family: 'Livvic';
         font-style: normal;
         font-weight: 600;
@@ -53,6 +68,30 @@
         line-height: 28px;
         color: #FFFFFF;
         width: 445px;
+        margin-bottom: 255px;
+
+        &::before {
+            content: "";
+            display: inline-block;
+            position: absolute;
+            width: 400px;
+            height: 400px;
+            background-image: url(./../images/Group.svg);
+            left: calc(50% - 157px);
+            top: calc(238%);
+            background-repeat: no-repeat;
+
+        }
+
+        &::after {
+            content: "";
+            position: absolute;
+            width: 100px;
+            height: 44px;
+            background-image: url(./../images/liniya.svg);
+            right: 63%;
+            top: 237%;
+        }
 
     }
 }

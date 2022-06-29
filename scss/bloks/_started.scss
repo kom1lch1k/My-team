@@ -3,7 +3,7 @@
     padding-top: 72px;
 
     &__container {
-        max-width: 1110px;
+        max-width: 917px;
     }
 
     &__wrapper {}
@@ -19,6 +19,7 @@
     &__item {}
 
     &__heading {
+        position: relative;
         font-family: 'Livvic';
         font-style: normal;
         font-weight: 700;
@@ -26,6 +27,20 @@
         line-height: 48px;
         color: #012F34;
         margin-bottom: 76px;
+
+        &::before {
+            position: absolute;
+            content: "";
+            display: inline-block;
+            width: 200px;
+            height: 244px;
+            background-image: url(./../images/started.svg);
+            right: calc(50% - -57%);
+            top: calc(-42%);
+            background-repeat: no-repeat;
+
+
+        }
     }
 
     &__btn {

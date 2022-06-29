@@ -4,6 +4,7 @@
 
     &__container {
         max-width: 1110px;
+        padding-top: 198px;
     }
 
     &__wrapper {}
@@ -16,6 +17,7 @@
     }
 
     &__item {}
+
 
     &__heading {
         position: relative;
@@ -40,6 +42,8 @@
 
         }
     }
+
+
 
     &__title {
         font-family: 'Livvic';
@@ -71,9 +75,6 @@
         }
 
 
-
-
-
     }
 
     &__text {
@@ -90,4 +91,24 @@
 
 
     }
+
+    &__bottom {
+        position: relative;
+        margin-bottom: 140px;
+
+        &::before {
+            position: absolute;
+            content: "";
+            display: inline-block;
+            width: 200px;
+            height: 244px;
+            background-image: url(./../images/marketin.svg);
+            left: calc(50% - -59%);
+            top: calc(-109%);
+            background-repeat: no-repeat;
+
+
+        }
+    }
+
 }
