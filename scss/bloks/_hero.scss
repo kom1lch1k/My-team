@@ -1,0 +1,57 @@
+.hero {
+    background-color: #014E56;
+    padding: 133px;
+
+    &__container {
+        max-width: 1110px;
+    }
+
+    &__wrapper {}
+
+    &__inner-wrapper {}
+
+    &__item {
+        display: flex;
+        align-items: center;
+    }
+
+    &__list {}
+
+    &__heading {
+        position: relative;
+        font-family: 'Livvic';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 100px;
+        line-height: 100px;
+        color: #FFFFFF;
+        width: 620px;
+
+
+        &::before {
+            content: "";
+            position: absolute;
+            width: 50px;
+            height: 4px;
+            background: #79C8C7;
+            left: 100%;
+        
+            
+        }
+    }
+
+    &__span {
+        color: #F67E7E;
+    }
+
+    &__text {
+        font-family: 'Livvic';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 28px;
+        color: #FFFFFF;
+        width: 445px;
+
+    }
+}
