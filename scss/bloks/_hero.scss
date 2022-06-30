@@ -95,3 +95,88 @@
 
     }
 }
+
+@media only screen and (max-width:768px) {
+    .hero {
+        padding-top: 122px;
+
+        &__container {
+            max-width: 683px;
+        }
+
+        &__inner-wrapper {
+            text-align: center;
+            margin: 0 auto;
+        }
+
+        &__item {
+            display: inline-block;
+
+        }
+
+        &__list {
+
+
+            &::before {
+                content: "";
+                display: inline-block;
+                position: absolute;
+                width: 200px;
+                height: 200px;
+                background-image: url(./../images/disk-left.svg);
+                right: calc(50% - -474px);
+                background-repeat: no-repeat;
+            }
+        }
+
+        &__heading {
+            font-size: 64px;
+            width: 683px;
+            margin-bottom: 24px;
+
+            &::after {
+                display: contents;
+
+
+
+            }
+
+        }
+
+        &__span {
+            color: #F67E7E;
+        }
+
+        &__text {
+            width: 457px;
+            text-align: center;
+            margin: 0 auto;
+            margin-bottom: 256px;
+
+
+            &::before {
+                content: "";
+                display: inline-block;
+                position: absolute;
+                width: 400px;
+                height: 400px;
+                background-image: url(./../images/Group.svg);
+                left: calc(50% - 157px);
+                top: calc(238%);
+                background-repeat: no-repeat;
+
+            }
+
+            &::after {
+                content: "";
+                position: absolute;
+                width: 100px;
+                height: 44px;
+                background-image: url(./../images/liniya.svg);
+                right: 63%;
+                top: 237%;
+            }
+
+        }
+    }
+}

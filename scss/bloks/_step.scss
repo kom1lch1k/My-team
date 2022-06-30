@@ -47,7 +47,7 @@
             background-image: url(./../images/liniya.svg);
             right: 107%;
             top: -91%;
-            
+
         }
     }
 
@@ -115,7 +115,7 @@
 
     &__position {
         position: relative;
-        
+
 
         &::before {
             position: absolute;
@@ -129,6 +129,7 @@
             background-repeat: no-repeat;
 
         }
+
         &::after {
             content: "";
             position: absolute;
@@ -137,7 +138,101 @@
             background-image: url(./../images/liniya.svg);
             right: -28%;
             top: 1215%;
-            
+
+        }
+    }
+}
+
+@media only screen and (max-width:768px) {
+    .step {
+        background-color: #004047;
+
+        &__container {
+            max-width: 768px;
+            padding-top: 140px;
+
+
+        }
+
+        &__wrapper {}
+
+        &__inner-wrapper {
+            text-align: center;
+        }
+
+        &__heading {
+            font-size: 32px;
+            line-height: 32px;
+            width: 573px;
+
+            &::before {
+                right: calc(50% - -50%);
+                top: calc(-146%);
+            }
+
+            &::after {
+                right: 93%;
+                top: -91%;
+
+            }
+        }
+
+        &__span {
+            color: #79C8C7;
+        }
+
+        &__item {
+            display: inline-block;
+        }
+
+        &__list {}
+
+        &__text {
+         width: 573px;
+            &::before {
+                right: calc(50% - 9%);
+                top: calc(-78%);
+
+            }
+        }
+
+        &__title {
+            font-family: 'Livvic';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 18px;
+            line-height: 28px;
+            color: #79C8C7;
+            margin-bottom: 2px;
+
+        }
+
+        &__text-title {
+            font-family: 'Livvic';
+            font-size: 13px;
+            line-height: 18px;
+            color: #FFFFFF;
+            margin-bottom: 32px;
+        }
+
+        &__images {
+            position: relative;
+            margin-bottom: 151px;
+        }
+
+        &__position {
+            position: relative;
+
+
+            &::before {
+                right: calc(50% - 111%);
+                top: calc(913%);
+
+            }
+
+            &::after {
+                right: -60%
+            }
         }
     }
 }
