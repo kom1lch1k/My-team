@@ -96,6 +96,56 @@
     }
 }
 
+@media only screen and (max-width:1044px) {
+    .hero {
+        &__text {
+            &::before {
+                left: calc(50% - 150px);
+                top: calc(209%);
+            }
+
+            &::after {
+                right: 68%;
+                top: 229%;
+            }
+        }
+    }
+}
+@media only screen and (max-width:970px) {
+    .hero {
+        &__text {
+
+            &::before {
+                left: calc(50% - 227px);
+                top: calc(192%);
+            }
+
+            &::after {
+                right: 92%;
+                top: 193%;
+            }
+        }
+    }
+
+}
+
+@media only screen and (max-width:925px) {
+    .hero {
+        &__text {
+
+            &::before {
+                left: calc(50% - 226px);
+                top: calc(179%);
+            }
+
+            &::after {
+                right: 101%;
+                top: 177%;
+            }
+        }
+    }
+
+}
 @media only screen and (max-width:768px) {
     .hero {
         padding-top: 122px;
@@ -180,3 +230,90 @@
         }
     }
 }
+
+@media only screen and (max-width:600px) {
+    .hero {
+        padding-top: 80px;
+
+        &__container {
+            max-width: 375px;
+        }
+
+        &__inner-wrapper {
+            text-align: center;
+            margin: 0 auto;
+        }
+
+        &__item {
+            display: inline-block;
+
+        }
+
+        &__list {
+
+
+            &::before {
+                content: "";
+                display: inline-block;
+                position: absolute;
+                width: 200px;
+                height: 200px;
+                background-image: url(./../images/disk-left.svg);
+                right: calc(50% - -474px);
+                background-repeat: no-repeat;
+            }
+        }
+
+        &__heading {
+            font-size: 40px;
+            line-height: 40px;
+            // ogkpkg
+            margin-bottom: 18px;
+            width: 327px;
+            text-align: center;
+
+            &::after {
+                display: contents;
+
+
+
+            }
+
+        }
+
+        &__span {
+            color: #F67E7E;
+        }
+
+        &__text {
+            width: 327px;
+            font-size: 15px;
+            line-height: 28px;
+            text-align: center;
+            margin: 0 auto;
+            margin-bottom: 150px;
+
+
+            &::before {
+                content: "";
+                display: inline-block;
+                position: absolute;
+                width: 358px;
+                height: 200px;
+                background-image: url(./../images/Group.svg);
+                left: calc(50% - 157px);
+                top: calc(144%);
+                background-repeat: no-repeat;
+
+            }
+
+            &::after {
+                right: 73%;
+                top: 156%;
+            }
+
+        }
+    }
+}
+
+
